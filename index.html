@@ -97,7 +97,7 @@
             if (videoIdMatch) {
                 const videoId = videoIdMatch[1];
                 // Added 'autoplay=1' to autoplay the video and 'controls=0' to disable YouTube's native controls.
-                const embedCode = `<iframe src="https://vid.puffyan.us/embed/${videoId}?autoplay=1" frameborder="0" allowfullscreen></iframe>`;
+                const embedCode = `<iframe src="https://invidious.flokinet.to/embed/${videoId}?autoplay=1" frameborder="0" allowfullscreen></iframe>`;
                 embedContainer.innerHTML = embedCode;
                 updateVideoPosition();
             } else {
